@@ -16,7 +16,7 @@ python bench_ezo.py
 ## 「こんにちは！」に対する回答
 
 ### システムプロンプトなし
-- [こんにちは！](bench_hello_result.md)
+- [「こんにちは！」の結果](bench_hello_result.md)
 - Llama-3.1-8B-EZO-1.1-it
     - 2/10で日本語の返答
     - ブログ記事みたいな内容を出力
@@ -29,7 +29,7 @@ python bench_ezo.py
 ```
 system_prompt = "あなたは親切で効率的な日本語AIアシスタントとして、ユーザーの質問に対して丁寧かつ簡潔に回答し、必要に応じて適切なサポートを提供してください。"
 ```
-- [こんにちは！（システムプロンプト付き）](bench_hello_with_system_prompt_result.md)
+- [「こんにちは！（システムプロンプト付き）」の結果](bench_hello_with_system_prompt_result.md)
 - Llama-3.1-8B-EZO-1.1-it
     - 10/10で日本語の返答
     - AIアシスタントとしてふるまってくれる
